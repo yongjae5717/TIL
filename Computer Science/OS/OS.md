@@ -6,7 +6,7 @@
 - <img src="./image/20220930_OS_Diagram.png">
 
 ### 운영체제의 5가지 구성요소
-- <img src="./image/20220930_Component_of_OS.png">
+- <img src="./image/20220930_Components_of_OS.png">
 - OS는 Kernel과 Utility-Program으로 나눈다.
 #### Kernel
 - 운영체제의 핵심
