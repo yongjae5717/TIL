@@ -15,6 +15,7 @@
 #### 설명: 
 어떤 작업을 위해 실행할 수 있는 파일입니다.\ 파일이 저장 장치에 저장되어 있지만, 메모리에는 올라가 있지 않은 정적인 상태입니다. (그냥 코드 덩어리)
 ### 프로세스
+- <img src="./Process_Thread/20220929_Process_Diagram.png">
 #### 설명:
 1. 코드 덩어리인 프로그램을 실행한 것 -> 동적인 상태의 프로그램\
    메모리에 올라와 실행되고 있는 프로그램의 인스턴스로 독립적인 개체입니다. 
@@ -29,6 +30,7 @@ ex) Pipe, File, Socket, etc.
 #### 설명:
 하나의 프로그램을 여러 개의 프로세스로 구성하여, 각 프로세스가 하나의 작업을 처리하는 것입니다. 즉, 하나의 운영체제 안에서 여로 프로세스가 실행되는 것입니다.
 ### 스레드
+- <img src="./Process_Thread/20220929_Thread_Diagram.png">
 #### 설명:
 1. 프로세스 코드에 정의된 절차에 따라 실행되는 특정한 수행 경로
 2. 프로세스가 할당받은 자원을 이용하는 실행단위
@@ -46,6 +48,9 @@ ex) Pipe, File, Socket, etc.
 
 ## 3. TCP vs UDP
 ### TCP (Transmission Control Protocol)
+- Header
+- <img src="./TCP_UDP/20220929_TCP_Header.png">
+
 #### 설명:
 1. 인터넷 상에서 데이터를 메시지의 형태로 보내기 위해 IP와 함께 사용하는 프로토콜입니다.
 2. TCP는 응용 계층으로부터 받은 데이터에 Header를 추가한 뒤 IP로 보낸다.
@@ -60,8 +65,10 @@ ex) Pipe, File, Socket, etc.
 연결형 서비스로 가상 회선 방식을 제공한다.
 - 가상 회선 방식: 발신지와 수신지를 연결하여 패킷 전송하기 위한 논리적 경로를 배정한다는 의미입니다.
 - 3-way handshaking[SYN, SYN+ACK, ACK]: 목적지와 수신지를 확실히 정하여 정확한 전송을 보장하기 위해 세션을 수립한다. (TCP Connection)
+- <img src="./TCP_UDP/20220929_TCP_Connection(3-way handshake).png">
 - 3-way handshake은 SYN FLOODING 공격을 받을 수 있다.
 - 4-way handshaking[FIN, ACK, FIN, ACK]: 세션을 해제한다. (TCP Disconnection)
+- <img src="./TCP_UDP/20220929_TCP_Disconnection(4-way handshake).png">
 
 2. 흐름 제어\
 데이터 처리 속도를 조절하여 수신자의 버퍼 오버플로우를 방지한다
@@ -82,6 +89,9 @@ ex) Pipe, File, Socket, etc.
 - 점대점(PointToPoint): 각 연결이 정확히 2개의 종단점을 가진다. (멀티캐스팅, 브로드캐스팅 지원 X)
 
 ### UDP (User Datagram Protocol)
+- Header
+- <img src="./TCP_UDP/20220929_UDP_Header.png">
+
 #### 설명:
 1. 데이터를 데이터그램 단위로 처리하는 프로토콜이다.
 2. 비연결성 프로토콜로 연결을 위해 할당되는 논리적 경로가 없기 때문에, 각각의 패킷은 독립적인 관계를 지니며 다른 경로로 전송되고 독립적으로 처리된다.
@@ -133,6 +143,8 @@ ex) 인터넷 전화, 스트리밍 서비스
 - 통신 상대를 확인하지 않기 때문에 위장이 가능하다.
 
 ### HTTPS (HyperText Transfer Protocol Secure)
+- <img src="./HTTPS/HTTPS_Diagram.png">
+
 #### HTTPS는 HTTP의 일반 텍스트에 SSL이나 TSL 프로토콜을 씌워 데이터를 암호화하는 기법으로 HTTP의 보안 문제를 보안한 프로토콜이다.
 - HTTP통신하는 소켓 부분을 SSL(Secure Socket Layer) 또는 TSL(Transport Layer Security)라는 프로토콜로 대체한 것이다.
 - HTTP는 TCP와 직접 통신하지만, HTTPS에서는 HTTP는 SSL과 통신하고, SSL이 TCP와 통신한다.
