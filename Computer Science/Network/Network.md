@@ -218,7 +218,7 @@ HTTP 통신하는 소켓 부분을 SSL(Secure Socket Layer) 또는 TLS(Transport
 ### SSL Handshake
 - SSL이 데이터를 암호화하여 전달하는 방식이다.
 <img src="./HTTPS/20221004_SSL_Handshake.png">
-1. 클라이언트가 서버에 접속한다. 이 단계를 "Client Hello"라고 한다.
+1. 클라이언트가 서버에 접속한다. 이 단계를 "Client Hello"라고 한다. 
 2. 서버는 Client Hello에 대한 응답으로 "Server Hello"를 한다.
 3. 클라이언트는 CA 인증서를 CA의 공개키로 복호화하여 접속 요청한 서버가 신뢰할만한지 검증한다.
 4. 복호화가 되면 CA 인증서가 신뢰할 수 있기에 데이터를 주고 받을 대칭키를 생성한다.
@@ -283,3 +283,63 @@ HTTP 통신하는 소켓 부분을 SSL(Secure Socket Layer) 또는 TLS(Transport
 GET: 서버에게 동일한 요청을 여러 번 전송하더라도 동일한 응답이 돌아와야 한다는 성질을 가진다.
 POST: 서버에게 동일한 요청을 여러 번 전송해도 응답은 항상 다를 수 있다.
 ```
+
+## 7. REST API
+### API(Application Programming Interface)
+- 컴퓨터의 기능을 실행시킬 수 있는 방법으로 애클리케이션이 제공하는 코드의 형태를 지닌 인터페이스이다.
+
+### REST(Representational State Transfer)
+- 자원을 이름으로 구분하여 해당 자원의 상태를 주고 받는 모든 것을 의미한다.
+- HTTP URI(Uniform Resource Identifier)를 통해 자원을 명시하고, HTTP Method을 통해서 해당 자원에 대한 CRUD Operation을 적용하는 것을 의미한다.
+- 기본적으로 웹의 기존 기술과 HTTP 프로토콜을 그대로 활용하기 때문에 웹의 장점을 최대한 활용할 수 있는 아키택처 스타일
+- 네트워크 상에서 서버와 클라이언트 사이의 통신방식 중 하나이다.
+
+#### 목적
+- 애플리케이션 분리 및 통합
+- 멀티 플랫폼에 대한 지원을 위해 서비스 자원에 대한 아키택처
+
+#### 구성 요소
+- Resource(URI)
+```
+모든 자원에 대한 고유한 ID가 존재하고, 이 자원은 서버에 존재한다.
+```
+- Verb: HTTP Method
+```
+HTTP 메소드를 사용한다: GET, POST, PUT, PATCH, DELETE
+```
+- Presentation of Resource
+```
+클라이언트가 자원의 정보에 대하여 요청하면 서버는 적절한 응답을 보낸다.
+```
+
+#### 특징
+- Server-Client
+```
+server: 자원이 있는 부분
+client: 자원을 요청하는 부분
+```
+- Stateless
+```
+HTTP가 Stateless Protocol이므로 REST도 동일하다.
+```
+- Cacheable
+```
+웹에서 사용하는 기존 인프라를 사용할 수 있다.
+```
+- Layered System
+```
+Client는 REST API Server만 호출한다.
+서버는 다중 계층으로 구성될 수 있다.
+```
+- Code-On-Demand
+```
+서버로부터 스크립트를 받아 클라이언트에서 실행한다.
+```
+- Uniform Interface
+```
+URI로 지정한 자원에 대한 조작을 통일되고 한정적인 인터페이스로 수행한다.
+```
+
+### REST API
+- REST 기반으로 서비스 API를 구현한 것이다.
+- 최근 OpenAPI, 마이크로 서비스 등을 제공하는 업체의 대부분은 REST API를 제공한다.
