@@ -1,3 +1,3 @@
-lst = list ("12345")
-print(list(enumerate(lst)))
-# lst.sort (key=lambda x: enumerate (lst))
+s = "12345"
+s = s[1:] + s[0]
+print(s)
