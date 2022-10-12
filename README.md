@@ -54,3 +54,17 @@
 - [피보나치 수](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/피보나치%20수.md)
 - [행렬의 곱셈](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/행렬의%20곱셈.md)
 - [혼자 놀기의 달인](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/혼자%20놀기의%20달인.md)
+
+### SQL
+- [가격이 제일 비싼 식품의 정보 출력하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/가격이%20제일%20비싼%20식품의%20정보%20출력하기.md)
+- [고양이와 개는 몇 마리 있을까](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/고양이와%20개는%20몇%20마리%20있을까.md)
+- [동명 동물 수 찾기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/동명%20동물%20수%20찾기.md)
+- [동물 수 구하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/동물%20수%20구하기.md)
+- [상위 n개 레코드](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/상위%20n개%20레코드.md)
+- [식품분류별 가장 비싼 식품의 정보 조회하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/식품분류별%20가장%20비싼%20식품의%20정보%20조회하기.md)
+- [어린 동물 찾기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/어린%20동물%20찾기.md)
+- [여러 기준으로 정렬하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/여러%20기준으로%20정렬하기.md)
+- [이름이 있는 동물의 아이디](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/이름이%20있는%20동물의%20아이디.md)
+- [중복 제거하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/중복%20제거하기.md)
+- [최댓값 구하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/최댓값%20구하기.md)
+- [최솟값 구하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/최솟값%20구하기.md)
