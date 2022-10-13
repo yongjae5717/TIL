@@ -56,7 +56,7 @@
 - [혼자 놀기의 달인](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/혼자%20놀기의%20달인.md)
 - [타겟 넘버](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/타겟%20넘버.md)
 - [두 큐 합 같게 만들기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/두%20큐%20합%20같게%20만들기.md)
-- [더 맵게]((https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/더맵게.md))
+- [더 맵게](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/더맵게.md))
 
 ### SQL
 - [가격이 제일 비싼 식품의 정보 출력하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/가격이%20제일%20비싼%20식품의%20정보%20출력하기.md)
