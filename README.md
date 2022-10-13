@@ -59,6 +59,10 @@
 - [더 맵게](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/더맵게.md)
 - [피로도](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/피로도.md)
 
+### Level 3
+- [야근 지수](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/야근%20지수.md)
+
+
 ### SQL
 - [가격이 제일 비싼 식품의 정보 출력하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/가격이%20제일%20비싼%20식품의%20정보%20출력하기.md)
 - [고양이와 개는 몇 마리 있을까](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/고양이와%20개는%20몇%20마리%20있을까.md)
