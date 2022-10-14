@@ -1,15 +1,18 @@
-import itertools
 import sys
 
-input = sys.stdin.readline
+N, M = map(int, sys.stdin.readline().split())
+array = list(map(int, sys.stdin.readline().split()))
+array.sort()
+# print(array)
+result = list()
+for i in range(N):
+    for j in range(i + 1, N):
+        for k in range(j + 1, N):
+            x1 = array[i]
+            x2 = array[j]
+            x3 = array[k]
+            ans = x1 + x2 + x3
+            if ans <= M:
+                result.append(ans)
 
-n, m = map(int, input().split())
-
-cards = list(map(int, input().split()))
-result = 0
-
-for i in itertools.combinations(cards, 3):
-    if sum(i) <= m:
-        result = max(result, sum(i))
-
-print(result)
+print(max(result))

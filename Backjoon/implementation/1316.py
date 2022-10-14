@@ -1,27 +1,17 @@
 import sys
-input = sys.stdin.readline
 
-n = int(input())
-result = 0
-for _ in range(n):
-    text = list(input().strip())
-    # print(text)
-    temp = ""
-    flag = False
+N = int(sys.stdin.readline())
+array = list(sys.stdin.readline().strip() for _ in range(N))
+count = N
+for i in array:
     dictionary = dict()
-    for c in text:
-        if c not in dictionary:
-            dictionary[c] = 1
-        else:
-            if temp == c:
-                continue
-            else:
-                flag = True
-                break
-        temp = c
-        print(dictionary)
+    temp = ""
+    for j in i:
+        if j not in dictionary:
+            dictionary[j] = 1
+            temp = j
+        elif j in dictionary and j != temp:
+            count -= 1
+            break
 
-    if flag is False:
-        result += 1
-
-print(result)
+print(count)
