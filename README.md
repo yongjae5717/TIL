@@ -2,12 +2,18 @@
 오늘 공부한 내용들에 관하여 정리하는 레포지토리
 
 ## CS관련지식
+<details>
+<summary>접기/펼치기</summary>
+<div markdown="1">
+
 - [네트워크](https://github.com/yongjae5717/TIL/blob/main/Computer%20Science/Network/Network.md)
 - [운영체제](https://github.com/yongjae5717/TIL/blob/main/Computer%20Science/OS/OS.md)
 - [알고리즘](https://github.com/yongjae5717/TIL/blob/main/Computer%20Science/Algorithm/Algorithm.md)
 - [자료구조]()
 - [데이터베이스]()
 - [면접준비]()
+</div>
+</details>
 
 ## Baekjoon
 <details>
