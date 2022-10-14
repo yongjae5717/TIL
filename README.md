@@ -23,6 +23,10 @@
 - [구현](https://github.com/yongjae5717/TIL/tree/main/Backjoon/implementation)
 - [누적합](https://github.com/yongjae5717/TIL/tree/main/Backjoon/sum)
 - [투포인터](https://github.com/yongjae5717/TIL/tree/main/Backjoon/twoPointer)
+- [자료구조](https://github.com/yongjae5717/TIL/tree/main/Backjoon/Data_Structure)
+- [이분탐색](https://github.com/yongjae5717/TIL/tree/main/Backjoon/binarySearch)
+- [탐욕법](https://github.com/yongjae5717/TIL/tree/main/Backjoon/greedy)
+- [수학](https://github.com/yongjae5717/TIL/tree/main/Backjoon/math)
 
 </div>
 </details>
