@@ -58,6 +58,7 @@
 - [두 큐 합 같게 만들기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/두%20큐%20합%20같게%20만들기.md)
 - [더 맵게](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/더맵게.md)
 - [피로도](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/피로도.md)
+- [[1차]뉴스 클러스터링](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B1차%5D뉴스%20클러스터링.md)
 
 ### Level 3
 - [야근 지수](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/야근%20지수.md)
