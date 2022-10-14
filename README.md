@@ -13,6 +13,10 @@
 
 ## Programers
 ### Level1
+<details>
+<summary>프로그래머스 level1 문제풀이</summary>
+<div markdown="1">
+
 - [[카카오 인턴] 키패드 누르기](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/%5B카카오%20인턴%5D%20키패드%20누르기.md)
 - [다트게임](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/다트게임.md)
 - [로또의 최고 순위와 최저 순위](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/로또의%20최고%20순위와%20최저%20순위.md)
@@ -25,8 +29,14 @@
 - [완주하지 못한 선수](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/완주하지%20못한%20선수.md)
 - [체육복](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/체육복.md)
 - [크레인 인형뽑기 게임](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/크레인%20인형뽑기%20게임.md)
+</div>
+</details>
 
 ### Level2
+<details>
+<summary>프로그래머스 level2 문제풀이</summary>
+<div markdown="1">
+
 - [[1차]캐시](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B1차%5D캐시.md)
 - [H-Index](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/H-Index.md)
 - [N^2 배열 자르기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/n%5E2%20배열%20자르기.md)
@@ -59,12 +69,23 @@
 - [더 맵게](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/더맵게.md)
 - [피로도](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/피로도.md)
 - [[1차]뉴스 클러스터링](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B1차%5D뉴스%20클러스터링.md)
+</div>
+</details>
 
 ### Level 3
-- [야근 지수](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/야근%20지수.md)
+<details>
+<summary>프로그래머스 level3 문제풀이</summary>
+<div markdown="1">
 
+- [야근 지수](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/야근%20지수.md)
+</div>
+</details>
 
 ### SQL
+<details>
+<summary>프로그래머스 SQL 문제풀이</summary>
+<div markdown="1">
+
 - [가격이 제일 비싼 식품의 정보 출력하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/가격이%20제일%20비싼%20식품의%20정보%20출력하기.md)
 - [고양이와 개는 몇 마리 있을까](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/고양이와%20개는%20몇%20마리%20있을까.md)
 - [동명 동물 수 찾기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/동명%20동물%20수%20찾기.md)
@@ -91,3 +112,5 @@
 - [NULL 처리하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/NULL%20처리하기.md)
 - [이름에 el이 들어가는 동물 찾기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/이름에%20el이%20들어가는%20동물%20찾기.md)
 - [중성화 여부 파악하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/중성화%20여부%20파악하기.md)
+</div>
+</details>
