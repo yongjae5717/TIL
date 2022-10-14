@@ -86,3 +86,7 @@
 - [역순 정렬하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/역순%20정렬하기.md)
 - [이름이 없는 동물의 아이디](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/이름이%20없는%20동물의%20아이디.md)
 - [조건에 맞는 회원수 구하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/조건에%20맞는%20회원수%20구하기.md)
+- [DATETIME에서 DATE로 형 변환](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/DATETIME에서%20DATE로%20형%20변환.md)
+- [NULL 처리하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/NULL%20처리하기.md)
+- [이름에 el이 들어가는 동물 찾기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/이름에%20el이%20들어가는%20동물%20찾기.md)
+- [중성화 여부 파악하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/중성화%20여부%20파악하기.md)
