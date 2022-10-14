@@ -3,7 +3,7 @@
 
 ## CS관련지식
 <details>
-<summary>접기/펼치기</summary>
+<summary>네트워크, 운영체제, 알고리즘, 자료구조, 데이터베이스, 면접준비 등 </summary>
 <div markdown="1">
 
 - [네트워크](https://github.com/yongjae5717/TIL/blob/main/Computer%20Science/Network/Network.md)
