@@ -96,6 +96,7 @@
 - [피로도](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/피로도.md)
 - [[1차]뉴스 클러스터링](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B1차%5D뉴스%20클러스터링.md)
 - [k진수에서 소수 개수 구하기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/k진수에서%20소수%20개수%20구하기.md)
+- [주차 요금 계산](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/주차%20요금%20계산.md)
 </div>
 </details>
 
