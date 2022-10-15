@@ -142,5 +142,6 @@
 - [NULL 처리하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/NULL%20처리하기.md)
 - [이름에 el이 들어가는 동물 찾기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/이름에%20el이%20들어가는%20동물%20찾기.md)
 - [중성화 여부 파악하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/중성화%20여부%20파악하기.md)
+- [입양시각 구하기](https://github.com/yongjae5717/TIL/blob/main/Programers/sql/level1-2/입양시각구하기.md)
 </div>
 </details>
