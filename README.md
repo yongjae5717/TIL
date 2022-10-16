@@ -98,6 +98,7 @@
 - [k진수에서 소수 개수 구하기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/k진수에서%20소수%20개수%20구하기.md)
 - [주차 요금 계산](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/주차%20요금%20계산.md)
 - [[3차]압축](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B3차%5D압축.md)
+- [[1차]프렌즈4블록](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B1차%5D프렌즈4블록.md)
 
 </div>
 </details>
