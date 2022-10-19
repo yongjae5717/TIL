@@ -99,7 +99,8 @@
 - [주차 요금 계산](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/주차%20요금%20계산.md)
 - [[3차]압축](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B3차%5D압축.md)
 - [[1차]프렌즈4블록](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B1차%5D프렌즈4블록.md)
-
+- [[3차]n진수 게임](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B3차%5Dn진수%20게임.md)
+- [땅따먹기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/땅따먹기.md)
 </div>
 </details>
 
