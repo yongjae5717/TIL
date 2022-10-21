@@ -101,6 +101,8 @@
 - [[1차]프렌즈4블록](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B1차%5D프렌즈4블록.md)
 - [[3차]n진수 게임](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B3차%5Dn진수%20게임.md)
 - [땅따먹기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/땅따먹기.md)
+- [연속 부분 수열 합의 개수](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/연속%20부분%20수열%20합의%20개수.md)
+- [스킬트리](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/스킬트리.md)
 </div>
 </details>
 
