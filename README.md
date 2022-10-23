@@ -108,6 +108,7 @@
 - [모음 사전](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/모음사전.md)
 - [게임 맵 최단거리](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/게임맵최단거리.md)
 - [다리를 지나는 트럭](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/다리를지나는트럭.md)
+- [2 x n 타일링](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/2xn타일링.md)
 </div>
 
 </details>
