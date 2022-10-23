@@ -107,7 +107,9 @@
 - [[3차]파일명 정렬](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/%5B3차%5D파일명%20정렬.md)
 - [모음 사전](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/모음사전.md)
 - [게임 맵 최단거리](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/게임맵최단거리.md)
+- [다리를 지나는 트럭](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/다리를지나는트럭.md)
 </div>
+
 </details>
 
 ### Level 3
