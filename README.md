@@ -110,6 +110,7 @@
 - [다리를 지나는 트럭](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/다리를지나는트럭.md)
 - [2 x n 타일링](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/2xn타일링.md)
 - [할인행사](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/할인행사.md)
+- [2개 이하로 다른 비트](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/2개이하로다른비트.md)
 </div>
 
 </details>
