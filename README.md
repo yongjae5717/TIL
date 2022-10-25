@@ -111,6 +111,7 @@
 - [2 x n 타일링](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/2xn타일링.md)
 - [할인행사](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/할인행사.md)
 - [2개 이하로 다른 비트](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/2개이하로다른비트.md)
+- [소수 찾기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/소수찾기.md)
 </div>
 
 </details>
