@@ -125,6 +125,7 @@
 <div markdown="1">
 
 - [야근 지수](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/야근%20지수.md)
+- [정수 삼각형](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/정수삼각형.md)
 </div>
 </details>
 
