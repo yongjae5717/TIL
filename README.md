@@ -56,6 +56,7 @@
 - [체육복](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/체육복.md)
 - [크레인 인형뽑기 게임](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/크레인%20인형뽑기%20게임.md)
 - [삼총사](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/삼총사.md)
+- [옹알이](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/옹알이.md)
 </div>
 </details>
 
