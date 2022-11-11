@@ -133,6 +133,7 @@
 - [단어 변환](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/단어변환.md)
 - [등굣길](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/등굣길.md)
 - [베스트앨범](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/베스트앨범.md)
+- [숫자 게임](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/숫자게임.md)
 </div>
 </details>
 
