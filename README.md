@@ -118,6 +118,7 @@
 - [소수 찾기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/소수찾기.md)
 - [쿼드압축 후 개수 세기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/쿼드압축후개수세기.md)
 - [귤 고르기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/귤고르기.md)
+- [줄 서는 방법](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/줄서는방법.md)
 </div>
 
 </details>
