@@ -59,6 +59,7 @@
 - [옹알이](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/옹알이.md)
 - [햄버거 만들기](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/햄버거만들기.md)
 - [푸드 파이트 대회](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/푸드파이트대회.md)
+- [과일 장수](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/과일장수.md)
 </div>
 </details>
 
