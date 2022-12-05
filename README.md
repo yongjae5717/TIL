@@ -17,6 +17,15 @@
 
 ## Baekjoon
 <details>
+<summary>백준 골드</summary>
+<div markdown="1">
+
+- [14719]()
+
+</div>
+</details>
+
+<details>
 <summary>백준 문제풀이</summary>
 <div markdown="1">
 
