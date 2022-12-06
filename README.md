@@ -132,6 +132,7 @@
 - [줄 서는 방법](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/줄서는방법.md)
 - [124 나라의 숫자](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/124나라의숫자.md)
 - [점 찍기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/점찍기.md)
+- [삼각 달팽이](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/삼각달팽이.md)
 </div>
 
 </details>
