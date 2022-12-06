@@ -131,6 +131,7 @@
 - [귤 고르기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/귤고르기.md)
 - [줄 서는 방법](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/줄서는방법.md)
 - [124 나라의 숫자](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/124나라의숫자.md)
+- [점 찍기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/점찍기.md)
 </div>
 
 </details>
