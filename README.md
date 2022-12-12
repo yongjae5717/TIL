@@ -32,6 +32,7 @@
 
 - [10826](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/10826.md)
 - [13414](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/13414.md)
+- [1269](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/1269.md)
 
 
 </div>
