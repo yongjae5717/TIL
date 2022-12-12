@@ -17,6 +17,25 @@
 
 ## Baekjoon
 <details>
+<summary>백준 브론즈</summary>
+<div markdown="1">
+
+- [9093](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/9093.md)
+
+</div>
+</details>
+
+
+<details>
+<summary>백준 실버</summary>
+<div markdown="1">
+
+
+</div>
+</details>
+
+
+<details>
 <summary>백준 골드</summary>
 <div markdown="1">
 
