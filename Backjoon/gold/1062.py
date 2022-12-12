@@ -3,7 +3,6 @@ from itertools import combinations
 input = sys.stdin.readline
 
 n, k = map(int, input().split())
-words = list()
 ascii_code = list([] for _ in range(n))
 lst = [1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25]
 verb = [0, 2, 8, 13, 19]
@@ -18,7 +17,7 @@ for i in range(n):
             ascii_code[i].append(ord(c)-ord("a"))
 
 
-def solution(n, k, ascii_code):
+def solution(k, ascii_code):
     answer = 26
     if k < 5:
         return 0
@@ -40,4 +39,4 @@ def is_contain(lst1, lst2):
     return True
 
 
-print(solution(n, k, ascii_code))
+print(solution(k, ascii_code))
