@@ -21,6 +21,7 @@
 <div markdown="1">
 
 - [14719](https://github.com/yongjae5717/TIL/blob/main/Backjoon/gold_sol/14719.md)
+- [1062](https://github.com/yongjae5717/TIL/blob/main/Backjoon/gold_sol/1062.md)
 
 </div>
 </details>
