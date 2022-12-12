@@ -30,6 +30,9 @@
 <summary>백준 실버</summary>
 <div markdown="1">
 
+- [10826](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/10826.md)
+- [13414](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/13414.md)
+
 
 </div>
 </details>
