@@ -111,6 +111,7 @@
 - [과일 장수](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/과일장수.md)
 - [문자열 나누기](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/문자열나누기.md)
 - [가장 가까운 같은 글자](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/가장가까운같은글자.md)
+- [크기가 작은 부분문자열](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/크기가작은부분문자열.md)
 </div>
 </details>
 
