@@ -197,6 +197,7 @@
 - [숫자 게임](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/숫자게임.md)
 - [기지국 설치](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/기지국설치.md)
 - [불량 사용자](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/불량사용자.md)
+- [[카카오 인턴] 보석 쇼핑](https://github.com/yongjae5717/TIL/blob/main/Programers/level3_sol/보석쇼핑.md)
 
 </div>
 </details>
