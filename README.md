@@ -63,6 +63,7 @@
 - [2661](https://github.com/yongjae5717/TIL/blob/main/Backjoon/gold_sol/2661.md)
 - [2110](https://github.com/yongjae5717/TIL/blob/main/Backjoon/gold_sol/2110.md)
 - [7569](https://github.com/yongjae5717/TIL/blob/main/Backjoon/gold_sol/7569.md)
+- [9576](https://github.com/yongjae5717/TIL/blob/main/Backjoon/gold_sol/9576.md)
 
 </div>
 </details>
