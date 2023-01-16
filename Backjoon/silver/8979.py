@@ -2,6 +2,30 @@ import sys
 input = sys.stdin.readline
 
 
+def main():
+    global index
+    n, k = map(int, input().split())
+    s = list(list(map(int, input().split())) for _ in range(n))
+    s.sort(reverse=True, key=lambda x: (x[1], x[2], x[3]))
+
+    for i in range(n):
+        if s[i][0] == k:
+            index = i
+    for i in range(n):
+        if s[index][1:] == s[i][1:]:
+            print(i + 1)
+            break
+
+
+main()
+
+
+''' 20점짜리 답변
+
+import sys
+input = sys.stdin.readline
+
+
 def compare(num1, num2, lst, k):
     count1, gold1, silver1, bronze1 = lst[num1][1]
     count2, gold2, silver2, bronze2 = lst[num2][1]
@@ -38,3 +62,4 @@ def main():
 
 
 main()
+'''
