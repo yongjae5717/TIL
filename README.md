@@ -108,6 +108,15 @@
 </details>
 
 <details>
+<summary>백준 플래티넘</summary>
+<div markdown="1">
+
+- [2887](https://github.com/yongjae5717/TIL/blob/main/Backjoon/platinum_sol/2887.md)
+
+</div>
+</details>
+
+<details>
 <summary>백준 문제풀이</summary>
 <div markdown="1">
 
