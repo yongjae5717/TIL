@@ -80,7 +80,7 @@
 - [1015](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/1015.md)
 - [1940](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/1940.md)
 - [2276](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/2276.md)
-
+- [5800](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/5800.md)
 
 </div>
 </details>
