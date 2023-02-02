@@ -10,7 +10,8 @@ from dir_file_read import DirFileRead
 def main():
 
     # filename = sys.argv[1]
-    filename = sys.stdin.readline().strip()
+    # exportPath = "AllFiles/"
+    filename, exportPath = sys.stdin.readline().split()
     br = Boot_Record(filename)
 
     dir_offset = br.data_region
@@ -20,10 +21,10 @@ def main():
     fatTable = fat_table(filename, br)
 
     root_mgmt = NodeMgmt(["/", []])
-    dir_file_read = DirFileRead(filename, br, dir_pre, fatTable, "/", root_mgmt)
+    DirFileRead(filename, br, dir_pre, fatTable, "/", root_mgmt)
 
-    print("-------------node--------------")
-    root_mgmt.make_dir(filename)
+    root_mgmt.all_files_export(filename, exportPath)
+    root_mgmt.selected_file_export(filename, "/DIR1/PORT.JPG", "SelectedFile/")
 
 
 if __name__ == "__main__":
