@@ -45,7 +45,6 @@ class NodeMgmt:
                         f.write(byte_array)
                     f.close()
 
-            print(path, data)
             node = node.next
 
     def selected_file_export(self, filename, dataPath, exportPath):
@@ -74,5 +73,4 @@ class NodeMgmt:
                 f.close()
                 break
 
-            print(path, data)
             node = node.next

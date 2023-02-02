@@ -9,9 +9,16 @@ from dir_file_read import DirFileRead
 
 def main():
 
-    # filename = sys.argv[1]
-    # exportPath = "AllFiles/"
-    filename, exportPath = sys.stdin.readline().split()
+    filename, exportPath = sys.argv[1], sys.argv[2]
+    # filename, search_file, exportPath = sys.argv[1], sys.argv[2], sys.argv[3]
+
+    """ exportPath, search_file format example
+    search_file = "/DIR1/PORT.JPG"
+    exportPath = "AllFiles/"
+    """
+
+    # filename, exportPath = sys.stdin.readline().split()
+    # filename, search_file, exportPath = sys.stdin.readline().split()
     br = Boot_Record(filename)
 
     dir_offset = br.data_region
@@ -24,7 +31,7 @@ def main():
     DirFileRead(filename, br, dir_pre, fatTable, "/", root_mgmt)
 
     root_mgmt.all_files_export(filename, exportPath)
-    root_mgmt.selected_file_export(filename, "/DIR1/PORT.JPG", "SelectedFile/")
+    # root_mgmt.selected_file_export(filename, search_file, exportPath)
 
 
 if __name__ == "__main__":

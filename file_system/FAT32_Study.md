@@ -3,6 +3,7 @@
 - Boot Record
 - FAT Area (Cluster Chain)
 - Data Area (Directory Entry)
+- Main 함수 및 동작확인
 
 ### Boot Record
 ![](images/BootRecord.png)
@@ -390,6 +391,20 @@ class NodeMgmt:
             print(path, data)
             node = node.next
 ```
-
+FAT32_simple.mdf /DIR1/PORT.JPG Allfiles/
 </div>
 </details>
+
+### Main 함수 및 동작 확인
+- 메인화면 실행(특정 경로파일만 가져오기)
+  - 입력
+![](images/input1.png)
+  - 출력
+![](images/output1.png)
+  
+- 메인화면 실행(전체 파일 가져오기)
+  - 입력
+![](images/input2.png)
+  - 출력
+![](images/output2.png)
+
