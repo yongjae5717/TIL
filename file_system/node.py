@@ -1,3 +1,6 @@
+import os
+
+
 class Node:
     def __init__(self, data, next=None):
         self.data = data
@@ -19,11 +22,14 @@ class NodeMgmt:
                 node = node.next
             node.next = Node(data)
 
-    def desc(self):
+    def make_dir(self):
         node = self.head
-        while node:
-            print(" ")
-            print(node.data)
+        while node.next:
+            path, data = node.data
+            dest_dir = os.path.join("./", path[1:])
+            if not os.path.exists(dest_dir) and not data:
+                os.makedirs(dest_dir)
+            print(path, data)
             node = node.next
 
     def cur_path(self):

@@ -1,4 +1,5 @@
 import sys
+import os
 sys.setrecursionlimit(10 ** 6)
 from boot_record import Boot_Record
 from dir1_prepare import dir_prepare
@@ -22,7 +23,7 @@ def main():
     dir_file_read = DirFileRead(filename, br, dir_pre, fatTable, "/", root_mgmt)
 
     print("-------------node--------------")
-    root_mgmt.desc()
+    root_mgmt.make_dir()
 
 
 if __name__ == "__main__":

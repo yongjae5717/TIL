@@ -18,7 +18,7 @@ class DirFileRead:
                                         br.cluster_num_of_root_dir, br.cluster_size)
 
                 # hex (data.dir_offset), hex (data.file_size),
-                root_mgmt.add([self.path, cluster_n.cluster_list])
+                root_mgmt.add([self.path, []])
                 DirFileRead(filename, br, dir_pre, fatTable, self.path + "/", root_mgmt)
 
             elif data.attribute == 32:
