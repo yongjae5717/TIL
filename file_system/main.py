@@ -18,9 +18,8 @@ def main():
 
     fatTable = fat_table(filename, br)
 
-    node_mgmt = NodeMgmt("/")
-    root_mgmt = NodeMgmt("/")
-    dir_file_read = DirFileRead(filename, br, dir_pre, fatTable, node_mgmt, root_mgmt)
+    root_mgmt = NodeMgmt(["/", []])
+    dir_file_read = DirFileRead(filename, br, dir_pre, fatTable, "/", root_mgmt)
 
     print("-------------node--------------")
     root_mgmt.desc()

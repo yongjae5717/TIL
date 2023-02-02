@@ -3,32 +3,26 @@ from cluster_num import cluster_num
 
 
 class DirFileRead:
-    def __init__(self, filename, br, dir_pre, fatTable, node_mgmt, root_mgmt):
+    def __init__(self, filename, br, dir_pre, fatTable, node_path, root_mgmt):
         for data in dir_pre.result_list:
-            name, attribute, first_cluster, dir_offset, file_size, extension = data
-            node_mgmt.cur_path ()
-            path = node_mgmt.path
-            if first_cluster >= len (fatTable.fat_table_list):
+            self.path = node_path
+            if data.first_cluster >= len(fatTable.fat_table_list):
                 continue
 
-            if attribute == 16:
-                path += str(name)[2:][:-1]
-                if path[-1] == ".":
+            if data.attribute == 16:
+                self.path += str(data.name)[2:][:-1]
+                if self.path[-1] == ".":
                     continue
-                dir_pre = dir_prepare(filename, br, dir_offset)
-                cluster_n = cluster_num(fatTable.fat_table_list, first_cluster, br.data_region, br.cluster_num_of_root_dir,
-                                         br.cluster_size)
+                dir_pre = dir_prepare(filename, br, data.dir_offset)
+                cluster_n = cluster_num(fatTable.fat_table_list, data.first_cluster, br.data_region,
+                                        br.cluster_num_of_root_dir, br.cluster_size)
 
-                node_mgmt.add([path, hex (dir_offset), hex(file_size), cluster_n.cluster_list])
-                DirFileRead(filename, br, dir_pre, fatTable, node_mgmt, root_mgmt)
+                # hex (data.dir_offset), hex (data.file_size),
+                root_mgmt.add([self.path, cluster_n.cluster_list])
+                DirFileRead(filename, br, dir_pre, fatTable, self.path + "/", root_mgmt)
 
-            elif attribute == 32:
-                path = str(name)[2:][:-1] + "." + str(extension)[2:][:-1]
-                cluster_n = cluster_num(fatTable.fat_table_list, first_cluster, br.data_region, br.cluster_num_of_root_dir,
-                                         br.cluster_size)
-                node_mgmt.add([path, hex(dir_offset), hex(file_size), cluster_n.cluster_list])
-
-        node = node_mgmt.head
-        while node:
-            root_mgmt.add (node.data)
-            node = node.next
+            elif data.attribute == 32:
+                self.path += str(data.name)[2:][:-1] + "." + str(data.extension)[2:][:-1]
+                cluster_n = cluster_num(fatTable.fat_table_list, data.first_cluster, br.data_region,
+                                        br.cluster_num_of_root_dir, br.cluster_size)
+                root_mgmt.add([self.path, cluster_n.cluster_list])

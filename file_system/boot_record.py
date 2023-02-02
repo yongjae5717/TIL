@@ -7,18 +7,6 @@ class Boot_Record:
     """
 
     def __init__(self, filename):
-        self.num_of_FAT_area = 0
-        self.num_of_byte_per_sector = 0
-        self.num_of_sector_per_cluster = 0
-        self.num_of_sector_reserved = 0
-        self.num_of_sector_FAT_area = 0
-        self.cluster_num_of_root_dir = 0
-        self.fat_region = 0
-        self.data_region = 0
-        self.cluster_size = 0
-        self.fat_size = 0
-        self.fat_area_size = 0
-
         count = 0
         byte_array = bytearray()
         with open(filename, 'rb') as f:
@@ -30,7 +18,6 @@ class Boot_Record:
                 byte_array += data
                 if count == 512:
                     break
-        # print(byte_array)
 
         self.num_of_FAT_area = int(byte_array[16])
         self.num_of_byte_per_sector = int(to_le(byte_array[11:13]), 16)

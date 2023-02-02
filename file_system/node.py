@@ -22,6 +22,7 @@ class NodeMgmt:
     def desc(self):
         node = self.head
         while node:
+            print(" ")
             print(node.data)
             node = node.next
 
