@@ -37,13 +37,4 @@ class dir_prepare:
             extension = byte_array[8:11].decode('latin-1').encode("utf-8").strip()
             file_manage = FileManage(name, attribute, first_cluster, dir_offset, file_size, extension)
 
-            if attribute == 16 or attribute == 32:
-                print("")
-                print("name:", file_manage.name)
-                print("attribute:", file_manage.attribute)
-                print("first cluster:", hex(file_manage.first_cluster))
-                print("dir_offset:", hex(file_manage.dir_offset), file_manage.first_cluster,
-                      br.cluster_num_of_root_dir, hex(br.data_region))
-                print("file_size:", hex(file_manage.file_size))
-                print("extension:", file_manage.extension)
             self.result_list.append(file_manage)

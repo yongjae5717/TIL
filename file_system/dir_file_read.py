@@ -1,4 +1,4 @@
-from dir1_prepare import dir_prepare
+from dir_prepare import dir_prepare
 from cluster_num import cluster_num
 
 

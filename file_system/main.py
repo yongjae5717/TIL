@@ -1,7 +1,7 @@
 import sys
 sys.setrecursionlimit(10 ** 6)
 from boot_record import Boot_Record
-from dir1_prepare import dir_prepare
+from dir_prepare import dir_prepare
 from fat import fat_table
 from node import NodeMgmt
 from dir_file_read import DirFileRead

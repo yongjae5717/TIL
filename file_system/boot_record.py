@@ -31,15 +31,3 @@ class Boot_Record:
         self.fat_size = self.num_of_sector_FAT_area * self.num_of_byte_per_sector
         self.fat_area_size = self.fat_size * self.num_of_FAT_area
         f.close()
-
-        print("num_of_FAT_area:", hex(self.num_of_FAT_area))
-        print("num_of_byte_per_sector:", hex(self.num_of_byte_per_sector))
-        print("num_of_sector_per_cluster:", hex(self.num_of_sector_per_cluster))
-        print("num_of_sector_reserved:", hex(self.num_of_sector_reserved))
-        print("num_of_sector_FAT_area:", hex(self.num_of_sector_FAT_area))
-        print("cluster_num_of_root_dir:", hex(self.cluster_num_of_root_dir))
-        print("fat_region:", hex(self.fat_region))
-        print("data_region:", hex(self.data_region))
-        print("cluster_size:", hex(self.cluster_size))
-        print("fat_size:", hex(self.fat_size))
-        print("fat_area_size", hex(self.fat_area_size))

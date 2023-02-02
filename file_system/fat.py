@@ -12,8 +12,6 @@ class fat_table:
         offset = br.fat_region
         finish_count = br.num_of_sector_FAT_area // 4 + 1
 
-        self.checked = [0] * finish_count
-
         flag = 0
         while True:
             byte_array = bytearray()
