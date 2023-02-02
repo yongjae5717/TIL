@@ -1,5 +1,5 @@
 from dir_prepare import dir_prepare
-from cluster_num import cluster_num
+from cluster_rule import cluster_rule
 
 
 class DirFileRead:
@@ -14,7 +14,7 @@ class DirFileRead:
                 if self.path[-1] == ".":
                     continue
                 dir_pre = dir_prepare(filename, br, data.dir_offset)
-                cluster_n = cluster_num(fatTable.fat_table_list, data.first_cluster, br.data_region,
+                cluster_n = cluster_rule(fatTable.fat_table_list, data.first_cluster, br.data_region,
                                         br.cluster_num_of_root_dir, br.cluster_size)
 
                 # hex (data.dir_offset), hex (data.file_size),
@@ -23,6 +23,6 @@ class DirFileRead:
 
             elif data.attribute == 32:
                 self.path += str(data.name)[2:][:-1] + "." + str(data.extension)[2:][:-1]
-                cluster_n = cluster_num(fatTable.fat_table_list, data.first_cluster, br.data_region,
+                cluster_n = cluster_rule(fatTable.fat_table_list, data.first_cluster, br.data_region,
                                         br.cluster_num_of_root_dir, br.cluster_size)
                 root_mgmt.add([self.path, cluster_n.cluster_list])
