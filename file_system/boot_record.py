@@ -30,4 +30,3 @@ class Boot_Record:
         self.cluster_size = self.num_of_byte_per_sector * self.num_of_sector_per_cluster
         self.fat_size = self.num_of_sector_FAT_area * self.num_of_byte_per_sector
         self.fat_area_size = self.fat_size * self.num_of_FAT_area
-        f.close()

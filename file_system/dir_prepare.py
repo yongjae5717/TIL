@@ -23,7 +23,6 @@ class dir_prepare:
                     byte_array += data
                     if count == 32:
                         break
-            f.close()
             offset += 32
 
             if byte_array == bytearray(b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'):

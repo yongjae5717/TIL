@@ -26,7 +26,6 @@ class fat_table:
                     byte_array += data
                     if count == 4:
                         break
-            f.close()
             flag += 1
             offset += 4
 

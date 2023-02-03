@@ -40,10 +40,8 @@ class NodeMgmt:
                             byte_array += data
                             if count == int(cluster_size, 16):
                                 break
-                    f.close()
                     with open(destination_dir, "wb") as f:
                         f.write(byte_array)
-                    f.close()
 
             node = node.next
 
@@ -67,10 +65,8 @@ class NodeMgmt:
                             byte_array += data
                             if count == int(cluster_size, 16):
                                 break
-                    f.close()
                 with open(destination_dir, "wb") as f:
                     f.write(byte_array)
-                f.close()
                 break
 
             node = node.next
