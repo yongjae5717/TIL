@@ -1,5 +1,4 @@
 import sys
-sys.setrecursionlimit(10 ** 6)
 from boot_record import Boot_Record
 from dir_prepare import dir_prepare
 from fat import fat_table
@@ -9,16 +8,13 @@ from dir_file_read import DirFileRead
 
 def main():
 
+    """ exportPath, search_file format example
+    search_file = "/DIR1/PORT.JPG"
+    exportPath = "AllFiles"
+    """
     filename, exportPath = sys.argv[1], sys.argv[2]
     # filename, search_file, exportPath = sys.argv[1], sys.argv[2], sys.argv[3]
 
-    """ exportPath, search_file format example
-    search_file = "/DIR1/PORT.JPG"
-    exportPath = "AllFiles/"
-    """
-
-    # filename, exportPath = sys.stdin.readline().split()
-    # filename, search_file, exportPath = sys.stdin.readline().split()
     br = Boot_Record(filename)
 
     dir_offset = br.data_region
