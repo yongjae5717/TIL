@@ -8,18 +8,9 @@ class dir_prepare:
 
         offset = dir_offset
         while True:
-            byte_array = bytearray()
-            count = 0
             with open(filename, 'rb') as f:
                 f.seek(offset)
-                while True:
-                    count += 1
-                    data = f.read(1)
-                    if data == b'':
-                        break
-                    byte_array += data
-                    if count == 32:
-                        break
+                byte_array = f.read(32)
             offset += 32
 
             if byte_array == bytearray(b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'):

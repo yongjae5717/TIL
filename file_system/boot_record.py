@@ -3,17 +3,8 @@ from endian import to_le
 
 class Boot_Record:
     def __init__(self, filename):
-        count = 0
-        byte_array = bytearray()
         with open(filename, 'rb') as f:
-            while True:
-                count += 1
-                data = f.read(1)
-                if data == b'':
-                    break
-                byte_array += data
-                if count == 512:
-                    break
+            byte_array = f.read(512)
 
         self.num_of_FAT_area = int(byte_array[16])
         self.num_of_byte_per_sector = int(to_le(byte_array[11:13]), 16)

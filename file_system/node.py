@@ -31,15 +31,9 @@ class NodeMgmt:
             elif data:
                 byte_array = bytearray()
                 for dir_offset, cluster_size in data:
-                    count = 0
                     with open(filename, 'rb') as f:
                         f.seek(int(dir_offset, 16))
-                        while True:
-                            count += 1
-                            data = f.read(1)
-                            byte_array += data
-                            if count == int(cluster_size, 16):
-                                break
+                        byte_array += f.read(int(cluster_size, 16))
                     with open(destination_dir, "wb") as f:
                         f.write(byte_array)
 
@@ -56,15 +50,9 @@ class NodeMgmt:
             elif data and path == dataPath:
                 byte_array = bytearray()
                 for dir_offset, cluster_size in data:
-                    count = 0
                     with open(filename, 'rb') as f:
                         f.seek(int(dir_offset, 16))
-                        while True:
-                            count += 1
-                            data = f.read(1)
-                            byte_array += data
-                            if count == int(cluster_size, 16):
-                                break
+                        byte_array += f.read(int(cluster_size, 16))
                 with open(destination_dir, "wb") as f:
                     f.write(byte_array)
                 break
