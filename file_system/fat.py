@@ -1,10 +1,7 @@
-from endian import to_be, to_le
+from endian import to_be
 
 
 class fat_table:
-    """
-    fat table class
-    """
     def __init__(self, filename, br):
 
         self.fat_table_list = list()

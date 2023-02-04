@@ -1,11 +1,7 @@
-from endian import to_be, to_le
+from endian import to_le
 
 
 class Boot_Record:
-    """
-    Boot Record Class
-    """
-
     def __init__(self, filename):
         count = 0
         byte_array = bytearray()

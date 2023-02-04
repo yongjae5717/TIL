@@ -1,7 +1,7 @@
 # 리틀앤디언
-def to_le(bytes):
+def to_le(byte_array):
     result = ""
-    for b in bytes[::-1]:
+    for b in byte_array[::-1]:
         temp = str(hex(b)[2:])
         if len(temp) == 1:
             temp = "0" + temp
@@ -10,9 +10,9 @@ def to_le(bytes):
 
 
 # 빅앤디언
-def to_be(bytes):
+def to_be(byte_array):
     result = ""
-    for b in bytes:
+    for b in byte_array:
         temp = str(hex(b)[2:])
         if len(temp) == 1:
             temp = "0" + temp

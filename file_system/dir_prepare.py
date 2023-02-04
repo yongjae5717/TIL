@@ -1,11 +1,8 @@
-from endian import to_be, to_le
+from endian import to_le
 from file_manage import FileManage
 
 
 class dir_prepare:
-    """
-    dir1_prepare class
-    """
     def __init__(self, filename, br, dir_offset):
         self.result_list = list()
 
