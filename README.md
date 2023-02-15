@@ -97,6 +97,7 @@
 - [4659](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/4659.md)
 - [1246](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/1246.md)
 - [17615](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/17615.md)
+- [9375](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/9375.md)
 
 </div>
 </details>
