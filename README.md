@@ -185,6 +185,7 @@
 - [크기가 작은 부분문자열](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/크기가작은부분문자열.md)
 - [명예의 전당(1)](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/명예의전당1.md)
 - [카드 뭉치](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/카드뭉치.md)
+- [둘만의 암호](https://github.com/yongjae5717/TIL/blob/main/Programers/level1_sol/둘만의암호.md)
 </div>
 </details>
 
