@@ -1,38 +1,33 @@
 def solution(x, y, n):
+    res = 0
     lst = list()
-    lst.append([x, 0])
-    res = 1000001
+    lst.append(x)
     while lst:
-        x, count = lst.pop()
-        if x < y:
-            temp1 = func1(x, n, count)
-            temp2 = func2(x, count)
-            temp3 = func3(x, count)
-            if temp1[0] <= y:
-                lst.append(temp1)
-            if temp2[0] <= y:
-                lst.append(temp2)
-            if temp3[0] <= y:
-                lst.append(temp3)
-        elif x == y:
-            res = min(res, count)
+        temp = set()
+        if y in lst:
+            return res
+        if min(lst) > y:
+            return -1
 
-    if res == 1000001:
-        return -1
-    return res
+        res += 1
+        for i in lst:
+            temp.add (func1(i,n))
+            temp.add (func2(i))
+            temp.add (func3(i))
+
+        lst = list(temp)
 
 
-def func1(x, n, c):
-    return [x + n, c + 1]
+def func1(x, n):
+    return x + n
 
 
-def func2(x, c):
-    return [x * 2, c + 1]
+def func2(x):
+    return x * 2
 
 
-def func3(x, c):
-    return [x * 2, c + 1]
-
+def func3(x):
+    return x * 2
 
 print(solution(10, 40, 5))
 print(solution(10, 40, 30))
