@@ -252,6 +252,7 @@
 - [메뉴 리뉴얼](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/메뉴리뉴얼.md)
 - [롤케이크 만들기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/롤케이크만들기.md)
 - [뒤에 있는 큰 수 찾기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/뒤에있는큰수찾기.md)
+- [숫자 변환하기](https://github.com/yongjae5717/TIL/blob/main/Programers/level2_sol/숫자변환하기.md)
 
 </div>
 </details>
