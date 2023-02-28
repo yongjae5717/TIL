@@ -42,6 +42,8 @@
 - [12605](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/12605.md)
 - [1551](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/1551.md)
 - [10823](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/10823.md)
+- [8595](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/8595.md)
+- [5026](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/5026.md)
 
 
 </div>
@@ -111,6 +113,7 @@
 - [2371](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/2371.md)
 - [20291](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/20291.md)
 - [2870](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/2870.md)
+- [9536](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/9536.md)
 
 </div>
 </details>
