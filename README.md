@@ -46,6 +46,15 @@
 - [5026](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/5026.md)
 - [5698](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/5698.md)
 - [25166](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/25166.md)
+- [11557](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/11557.md)
+- [11005](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/11005.md)
+- [2903](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/2903.md)
+- [5597](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/5597.md)
+- [10810](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/10810.md)
+- [10798](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/10798.md)
+- [2566](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/2566.md)
+- [2738](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/2738.md)
+- [10430](https://github.com/yongjae5717/TIL/blob/main/Backjoon/bronze_sol/10430.md)
 
 
 </div>
@@ -136,6 +145,14 @@
 - [11729](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/11729.md)
 - [11659](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/11659.md)
 - [9020](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/9020.md)
+- [2659](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/2659.md)
+- [9655](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/9655.md)
+- [16212](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/16212.md)
+- [9079](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/9079.md)
+- [11811](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/11811.md)
+- [1735](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/1735.md)
+- [7785](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/7785.md)
+- [2563](https://github.com/yongjae5717/TIL/blob/main/Backjoon/silver_sol/2563.md)
 
 </div>
 </details>
