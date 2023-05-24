@@ -1087,3 +1087,55 @@
 
 </div>
 </details>
+
+
+---
+<details>
+<summary>
+<font size="4em" color="green">
+4장 테스트 기법
+</font>
+</summary>
+<div>
+
+
+<details>
+<summary> 4.1 테스트 기법의 종류 </summary>
+<div>
+
+## 4.1 테스트 기법의 종류
+
+</div>
+</details>
+
+<details>
+<summary> 4.2 블랙박스 테스트 기법 </summary>
+<div>
+
+## 4.2 블랙박스 테스트 기법
+
+</div>
+</details>
+
+<details>
+<summary> 4.3 화이트박스 테스트 기법 </summary>
+<div>
+
+## 4.3 화이트박스 테스트 기법
+
+</div>
+</details>
+
+<details>
+<summary> 4.4 경험 기반 테스트 기법 </summary>
+<div>
+
+## 4.4 경험 기반 테스트 기법
+
+</div>
+</details>
+
+
+</div>
+</details>
+
