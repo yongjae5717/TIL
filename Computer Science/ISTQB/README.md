@@ -1722,7 +1722,7 @@
 <details>
 <summary>
 <font size="4em" color="purple">
-5장 테스트 관리
+6장 테스트 지원 도구
 </font>
 </summary>
 <div>
