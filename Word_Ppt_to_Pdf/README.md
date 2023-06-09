@@ -1,5 +1,5 @@
 # WPP 도구 설명
-### "WPP is Word, P\PT to PDF"
+### "WPP is Word, PPT to PDF"
 
 ---
 ## 목적
