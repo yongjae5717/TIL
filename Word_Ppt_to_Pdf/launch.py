@@ -20,10 +20,20 @@ class MyGUI(QMainWindow):
         self.pushButton_3.clicked.connect(self.open_directory3)
         self.pushButton_4.clicked.connect(self.word_to_pdf)
         self.pushButton_5.clicked.connect(self.ppt_to_pdf)
+        self.pushButton_6.clicked.connect(self.open_destination_folder)
 
     def ppt_to_pdf(self):
+        if self.ppt_dir_path == "":
+            QMessageBox.warning(self, "Error", "ppt 경로가 선택되지 않았습니다..")
+            return
+
+        if self.pdf_dir_path == "":
+            QMessageBox.warning(self, "Error", "pdf를 저장할 경로가 선택되지 않았습니다..")
+            return
+
         input_folder_path = self.ppt_dir_path.replace('/', "\\")
         output_folder_path = self.pdf_dir_path.replace('/', "\\")
+
         print(input_folder_path, output_folder_path)
         input_file_paths = os.listdir(input_folder_path)
 
@@ -43,8 +53,17 @@ class MyGUI(QMainWindow):
             slides.SaveAs(output_file_path, FileFormat=32)
             print("break point")
             slides.Close()
+        os.startfile(output_folder_path)
 
     def word_to_pdf(self):
+        if self.word_dir_path == "":
+            QMessageBox.warning(self, "Error", "word 경로가 선택되지 않았습니다..")
+            return
+
+        if self.pdf_dir_path == "":
+            QMessageBox.warning(self, "Error", "pdf를 저장할 경로가 선택되지 않았습니다..")
+            return
+
         input_folder_path = self.word_dir_path.replace('/', "\\")
         output_folder_path = self.pdf_dir_path.replace('/', "\\")
         input_file_paths = os.listdir(input_folder_path)
@@ -65,6 +84,7 @@ class MyGUI(QMainWindow):
 
             doc.SaveAs(output_file_path, FileFormat=17)
             doc.Close()
+        os.startfile(output_folder_path)
 
     def open_directory(self):
         directory = str(QFileDialog.getExistingDirectory(self, "Select Directory"))
@@ -89,6 +109,13 @@ class MyGUI(QMainWindow):
             return
         self.label_3.setText(directory)
         self.pdf_dir_path = directory
+
+    def open_destination_folder(self):
+        if self.pdf_dir_path == "":
+            QMessageBox.warning(self, "Error", "결과 폴더 경로가 선택되지 않았습니다..")
+            return
+        destination_path = self.pdf_dir_path
+        os.startfile(destination_path)
 
 
 def main():
