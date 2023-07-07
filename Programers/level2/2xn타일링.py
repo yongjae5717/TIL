@@ -3,7 +3,7 @@ def solution(n):
     for i in range(3, n+1):
         if i not in memo:
             memo[i] = (memo[i-1] + memo[i-2]) % 1000000007
-
+    print("test")
     return memo[n]
 
 
